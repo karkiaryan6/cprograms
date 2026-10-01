@@ -1,0 +1,21 @@
+#include<stdio.h>
+int Add(int num1, int num2) {
+//	num1=20;
+//	num2=30;
+	int result = num1 + num2;
+	printf("addition of two numbers = %d\n",result);
+}
+int Subtract(int num1, int num2){
+//	num1=20;
+//	num2=30;
+	int sub = num1 - num2;
+	printf("subtraction of two numbers = %d\n",sub);
+}
+
+int main() {
+	int x = 52, y = 23;
+	Add(x,y);
+	Subtract(x,y);
+	printf("value of num1 %d and num2 %d",x, y);
+	return 0;
+}
