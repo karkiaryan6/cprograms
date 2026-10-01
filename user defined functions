@@ -1,0 +1,12 @@
+#include<stdio.h>
+// user defined function, functions takes two parameters but not return value
+int Add(int num1, int num2) {
+	int result = num1 + num2;
+	printf("addition of two numbers = %d",result);
+}
+
+
+int main() {
+	Add(12,23);
+	return 0;
+}
